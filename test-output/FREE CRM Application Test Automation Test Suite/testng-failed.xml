@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.flip.qa.testcases.HomePageTest">
+        <methods>
+          <include name="search_for_product"/>
+          <include name="sort_product"/>
+          <include name="testAddToCartSecondProduct"/>
+          <include name="Cancel_Logon_Form"/>
+          <include name="productvalidate"/>
+          <include name="validate_product_ascending_order"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="search_result"/>
+          <include name="testAddToCartThirdProduct"/>
+        </methods>
+      </class> <!-- com.flip.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
